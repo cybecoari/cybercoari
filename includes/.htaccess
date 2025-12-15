@@ -1,0 +1,7 @@
+# Impede acesso direto a arquivos sensíveis
+<FilesMatch "\.(php|ini|sql|bak|conf)$">
+  Deny from all
+</FilesMatch>
+
+# Impede listagem de diretório
+Options -Indexes
