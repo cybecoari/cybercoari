@@ -1,0 +1,19 @@
+# Dentro da pasta do projeto (cybercoari)
+echo "# Arquivos sensíveis - NÃO SUBIR" > .gitignore
+echo "config/db.php" >> .gitignore
+echo "config/mercadopago_config.php" >> .gitignore
+echo "config/credentials.php" >> .gitignore
+echo "database.sql" >> .gitignore
+echo "*.log" >> .gitignore
+echo "*.txt" >> .gitignore
+echo "sessions/" >> .gitignore
+echo "logs/" >> .gitignore
+echo "tmp/" >> .gitignore
+echo "storage/" >> .gitignore
+echo "pagamento/pagamentos/" >> .gitignore
+echo "download_system/pagamentos/" >> .gitignore
+echo "download_system/arquivos/" >> .gitignore
+echo "vendas/pedidos/" >> .gitignore
+echo "temp_pacote/" >> .gitignore
+echo ".DS_Store" >> .gitignore
+echo "Thumbs.db" >> .gitignore
